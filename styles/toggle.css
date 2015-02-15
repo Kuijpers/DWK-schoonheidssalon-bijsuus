@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+#toggle .layer1 {
+	margin				:	0;
+	padding				:	0;
+	width				:	100%;
+}
+ 
+#toggle .heading {
+	margin				:	1px;
+	color				:	#fff;
+	padding				:	3px 10px;
+	cursor				:	pointer;
+	position			:	relative;
+	background-color	:	#70567c;
+	background-image	:	url(../images/background.png);
+	background-repeat	:	repeat;
+	margin-top			:	5px;
+}
+#toggle .content {
+	padding				:	5px 10px;
+	background-color	:	#fafafa;
+}
+#toggle p { 
+	padding				:	5px 0;
+	font-weight:bold;
+}
+
+#toggle span{
+	width				:	15px;
+	height				:	15px;
+	margin-top			:	2px;
+	float				:	right;
+	background-image	:	url(../images/down.png);
+	background-repeat	:	no-repeat;
+}
+

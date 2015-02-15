@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.popup_thumbnail{
+	position			:	relative;
+	z-index				:	0;
+}
+
+.popup_thumbnail:hover{
+	background-color	:	transparent;
+	z-index				:	50;
+}
+
+.popup_thumbnail span.popup_thumbnail{ /*CSS for enlarged image*/
+	position			:	absolute;
+	padding				:	5px;
+	left				:	-1000px;
+	visibility			:	hidden;
+	color				:	black;
+	text-decoration		:	none;
+}
+
+.popup_thumbnail span.popup_thumbnail img.popup_thumbnail{ /*CSS for enlarged image*/
+	border-width		:	0;
+	padding				:	2px;
+	width				:	250px;
+}
+
+.popup_thumbnail:hover span.popup_thumbnail{ /*CSS for enlarged image on hover*/
+	visibility			:	visible;
+	top					:	0;
+	left				:	30px; /*position where enlarged image should offset horizontally */
+	width				:	250px;
+}
+
